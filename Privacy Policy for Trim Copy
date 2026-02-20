@@ -1,0 +1,46 @@
+# Privacy Policy for Trim Copy
+
+Effective date: February 20, 2026
+
+Trim Copy ("the Extension") is designed to trim leading/trailing whitespace from user-selected text and copy the cleaned text to the clipboard after the user clicks the extension button.
+
+## 1. Data Collection
+
+Trim Copy does not collect, store, sell, or share personal data.
+
+## 2. How the Extension Works
+
+- The Extension runs only after user action (clicking the extension button).
+- It reads only the text the user has selected on the current page.
+- It trims leading and trailing whitespace from that selected text.
+- It writes the cleaned text to the system clipboard.
+
+## 3. Data Transmission
+
+Trim Copy does not send data to external servers.  
+No analytics, tracking, or remote logging is used.
+
+## 4. Data Storage
+
+Trim Copy does not store user content or personal data locally or remotely.
+
+## 5. Permissions Used
+
+- `activeTab`: temporary access to the currently active tab after user click.
+- `scripting`: executes trim-and-copy logic in the current tab after user action.
+
+## 6. Third-Party Services
+
+Trim Copy does not use third-party services to process user data.
+
+## 7. Children's Privacy
+
+Trim Copy is not directed to children and does not knowingly collect personal information from children.
+
+## 8. Changes to This Policy
+
+If this policy changes, the updated version will be reflected with a new effective date.
+
+## 9. Contact
+
+For privacy questions, contact the publisher through the Chrome Web Store listing support channel.
