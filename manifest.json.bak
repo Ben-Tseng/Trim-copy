@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Trim Copy",
+  "version": "1.0.0",
+  "description": "Copy selected text to clipboard and trim leading/trailing spaces.",
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "icons": {
+    "128": "128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
